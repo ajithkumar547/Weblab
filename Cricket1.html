@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:green;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:yellow;
+  color:black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+.first{
+ background-image:url(pic.jpg);
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+ background-attachment: scroll;
+ padding-top: 350px;   
+}
+#intro{
+background-color: darkgreen;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 195px;
+margin-right: 195px;
+text-align: center;
+}
+.second{
+               background-image: url(men.jpg); 
+               background-repeat: no-repeat;
+               background-attachment: scroll;
+               background-size: 100% 100%;
+               margin-left: 195px;
+               float: left;
+               width: 35%;
+               padding-top: 300px;
+               border-spacing: 0px;
+ }
+.third{
+                background-image: url(Women.jpg);
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                float: right;
+                width: 35%;
+                background-size: 100% 100%;
+                margin-right: 195px;
+                padding-top: 300px;
+                border-spacing: 0px;
+
+}
+#data{
+                color: white;
+                font-size: 70px;
+}
+ td{
+   text-align: center;
+ }
+ #foot li{
+   float: left;
+   list-style-type: none;
+   width: 20%;
+   padding-left: 70px;
+ }
+</style>
+</head>
+<body>
+<header>
+    <img src="cricket-australia.png" style="float: left;width: 180px;height: 70px;padding-left: 20px;">
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="">About</a>
+  <a href="">News</a>
+  <a href="" style="float: right;">Buy Tickets</a>
+  <div class="dropdown">
+    <button class="dropbtn">Events
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Cricket_about.html">Ashes</a>
+      <a href="#">T20 World Cup</a>
+      <a href="#">Aus vs Nz</a>
+    </div>
+  </div> 
+</div>
+</header>
+<div class="first">
+    <h1 style="font-size: xx-large;text-align: center;">CRICKET IS A SPORT <br>FOR ALL AUSTRALIANS</h1>
+</div>
+<h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;text-shadow: 2px 3px 5px purple;text-align: center;">FOSTERING ELITE PERFORMENCE</h1>
+<h2 id="intro"  style="color:white;">Our success is measured in part,by<br>the rankings of our national men's and women's teams.</h2>
+<div style="height: 500px;">
+  <table class="second">
+      <tr style="background-color: darkgreen;color: yellow;">
+          <th>TEST<br>RANKING</th>
+          <th>ODI<br>RANKING</th>
+          <th>T20<br>RANKING</th>
+      </tr>
+      <tr style="background-color: darkgreen;opacity: 0.5;">
+          <td style="font-size: 70px;opacity: 1;color: white;">3</td>
+          <td style="font-size: 70px;opacity: 1;color: white;">4</td>
+          <td style="font-size: 70px;opacity: 1;color: white;">2</td>
+      </tr>
+  </table>
+   <table class="third" >
+      <tr style="background-color: darkgreen;color: yellow;">
+          <th>TEST<br>RANKING</th>
+          <th>ODI<br>RANKING</th>
+          <th>T20<br>RANKING</th>
+      </tr>
+      <tr style="background-color: darkgreen;opacity: 0.5;">
+          <td id="data">1</td>
+          <td id="data">1</td>
+          <td id="data">1</td>
+      </tr>
+   </table>
+  </div>
+  <div style="background-color: darkgreen;">
+    <h1 style="text-align: center;color: white;padding: 20px;">WE PROUDLY REPRESENT</h1>
+    <table style="margin-left: 320px;border-spacing: 20px; width: 800px;">
+        <tr>
+            <th><img src="WACA.jpg" style="height: 180px;width: 180px;" > </th>
+            <th><img src="NT.jpg" style="height: 180px; width: 180px;"></th>
+            <th><img src="ACT.jpg" style="height: 180px ;width: 180px;"> </th>
+            <th><img src="VIC.jpg" style="height: 180px;width: 180px;"></th> 
+        </tr>
+        <tr style="color: white;padding: 0px;">
+            <th>Western Australian <br>Cricket Association</th>
+            <th>Northern Territory Cricket</th>
+            <th>Cricket ACT</th>
+            <th>Cricket Victoria</th>
+        </tr>
+        <tr>
+            <th><img src="TAS.jpg" style="height: 180px;width: 180px;" ></th>
+            <th><img src="NSW.jpg"style="height: 180px;width: 180px;"></th>
+            <th><img src="QLD.jpg" style="height: 180px;width: 180px;"></th>
+            <th><img src="SACA.jpg" style="height: 180px;width: 180px;"></th>
+        </tr>
+        <tr style="color: white;">
+            <th>Cricket Tasmania</th>
+            <th>Cricket New South Wales</th>
+            <th>Queensland Cricket</th>
+            <th>South Australian Cricket Association</th>
+        </tr>
+    </table>
+</div>
+<footer>
+  <h1 style="text-align: center;font-family: Georgia;"><ins>OUR PARTNERS</ins></h1>
+  <ul id="foot">
+     <li><img src="sp1.png" height="120px" width="120px " ></li>
+     <li><img src="sp2.png"height="120px" width="120px" ></li>
+     <li><img src="sp3.png" height="120px" width="120px"></li>
+     <li><img src="sp4.png"height="120px" width="120px"></li>
+     <li><img src="sp5.png"height="120px" width="120px"></li>
+     <li><img src="sp6.jpg"height="120px" width="120px"></li>
+     <li><img src="sp7.jpg"height="120px" width="120px"></li>
+     <li><img src="sp8.jpg"height="120px" width="120px"></li>
+  </ul>
+  </footer>
+</body>
+</html>
