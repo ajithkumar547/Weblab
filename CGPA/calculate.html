@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<html>
+
+<body>
+    <p></p>
+    <div class="first">
+        <label>Select upto which semester you have to calculate cgpa:</label>
+        <select id="sem">
+                <option value="1">1st sem</option>
+                <option value="2">2nd sem</option>
+                <option value="3">3rd sem</option>
+                <option value="4">4th sem</option>
+                <option value="5">5th sem</option>
+                <option value="6">6th sem</option>
+                <option value="7">7th sem</option>
+                <option value="8">8th sem</option>
+            </select>
+        <p></p>
+        <p id="enter">Enter the 6 subject Course credits and Grade points of semester 1 : </p>
+    </div>
+<br>
+
+    <table align="center" cellpadding="20" style="text-align: center;">
+        <thead>
+            <tr>
+                <th>Subjects No:</th>
+                <th>Course credits</th>
+                <th>Grade points</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> Subject 1</td>
+                <td><input type="text" id="sem11a" value="0" /></td>
+                <td><input type="text" id="sem11b" value="0" /></td>
+            </tr>
+
+
+            <tr>
+                <td> Subject 2</td>
+                <td><input type="text" id="sem12a" value="0" /></td>
+                <td><input type="text" id="sem12b" value="0" /></td>
+            </tr>
+
+            <tr>
+                <td> Subject 3</td>
+                <td><input type="text" id="sem13a" value="0" /></td>
+                <td><input type="text" id="sem13b" value="0" /></td>
+            </tr>
+
+            <tr>
+                <td> Subject 4</td>
+                <td><input type="text" id="sem14a" value="0" /></td>
+                <td><input type="text" id="sem14b" value="0" /></td>
+            </tr>
+
+            <tr>
+                <td> Subject 5</td>
+                <td><input type="text" id="sem15a" value="0" /></td>
+                <td><input type="text" id="sem15b" value="0" /></td>
+            </tr>
+            <tr>
+                <td> Subject 6</td>
+                <td><input type="text" id="sem16a" value="0" /></td>
+                <td><input type="text" id="sem16b" value="0" /></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <div class="buttons">
+        <button onclick="myFunction1()">&emsp;GPA&emsp;</button>&emsp;
+        <button onclick="cgpa()">&ensp;CGPA&ensp;</button>&emsp;
+        <button id="button" onclick="reset()">Enter Next Semester</button>
+        <br>
+        <br>
+        <strong>
+            <p id="demo"></p>&emsp;&emsp;&emsp;&emsp;
+            <p id="demo1"></p>
+        </strong>
+        <p id="demo2"></p>
+    </div>
+    <script type="text/javascript" src="cal.js"></script>
+</body>
+
+</html>
